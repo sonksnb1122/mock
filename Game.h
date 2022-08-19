@@ -6,9 +6,9 @@
 
 const int Defend_Score1[7] = { 0, 3, 24, 243, 2197, 19773, 177957 };
 const int Attack_Score1[7] = { 0, 4, 25, 246, 7300, 6561, 59049 };
-// 2 mảng điểm tấn công phòng thủ cho máy khó, điểm atk cao hơn để ván game kêt thúc nhanh tránh hòa
-const int Defend_Score2[7] = { 1, 2, 3, 1, 1, 1 }; // đoạn sau 1 điểm vì nó là mức dễ
-const int Attack_Score2[7] = { 2, 3, 4, 5, 6, 7}; // đánh xa thì điểm cao
+// 2 mảng điểm tấn công phòng thủ cho máy khó
+const int Defend_Score2[7] = { 0, 1, 9, 81, 729, 6561, 59049  }; 
+const int Attack_Score2[7] = { 0, 4, 25, 246, 7300, 6561, 59049}; 
 // 2 mảng điểm tấn công phòng thủ cho máy dễ
 
 class Point{
